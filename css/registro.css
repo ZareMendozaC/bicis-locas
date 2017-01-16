@@ -75,3 +75,19 @@
   background-color: #333;
   border-color: #333;
 }
+.salida{
+  color: red;
+  text-align: center;
+  font-size: 20px;
+}
+.salidaBuena{
+  color: green;
+  text-align: center;
+  font-size: 20px;
+}
+.bien{
+  color: green;
+}
+.mal{
+  color: red;
+}
