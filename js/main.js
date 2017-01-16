@@ -162,7 +162,6 @@ function valiEmail(e) {
        var isvalid= true;
        if(isVacio(email)==true)
        {
-       		alert("Ingrese su email");
        		document.getElementById("input-email").value="";
        		checkeado.innerHTML='<p class="mal">✘ No ingreso su email</p>';
        		isvalid= false;
@@ -224,7 +223,6 @@ function valiContrasena(e) {
 				       else{
 					       	if( esIgualA(contraseña,"098754")==true)
 					       {
-					       	    alert("No puedes usar 098754 como contraseña")
 					       	    document.getElementById("input-password").value="";
 					       	    checkeado.innerHTML='<p class="mal">✘ No puedes usar 098754 como contraseña</p>';
 					       	    isvalid= false;
